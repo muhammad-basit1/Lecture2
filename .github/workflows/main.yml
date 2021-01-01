@@ -28,7 +28,7 @@ jobs:
         with: 
           node-version: 12 
     #Install Yarn 
-      - uses: Borales/actions-yarn@v2.0.0
+      - uses: CultureHQ/actions-yarn@v1.0.1
         with:
           cmd: install
       
